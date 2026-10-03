@@ -8,6 +8,7 @@ const server = http.createServer((req, res) => {
     <p>My Node.js application is running inside Docker.</p>
     <br>
     <p>This is a simple Node.js server running on port 3000.</p>
+    <p>It's being served by a Docker container.</p>
   `);
 });
 
